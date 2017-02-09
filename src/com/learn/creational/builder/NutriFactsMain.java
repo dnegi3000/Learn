@@ -1,6 +1,4 @@
-package com.learn.builder;
-
-import com.learn.builder.NutritionFacts.Builder;
+package com.learn.creational.builder;
 
 public class NutriFactsMain {
 	

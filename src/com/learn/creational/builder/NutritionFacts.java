@@ -1,4 +1,4 @@
-package  com.learn.builder;
+package  com.learn.creational.builder;
 // Builder Pattern
 public class NutritionFacts {
     private final int servingSize;
@@ -22,7 +22,9 @@ public class NutritionFacts {
             this.servings = servings;
         }
         public Builder calories(int val)
-        { calories = val; return this; }
+        {
+        	calories = val; return this; 
+        }
         public Builder fat(int val)
         { fat = val; return this; }
         public Builder carbohydrate(int val)
