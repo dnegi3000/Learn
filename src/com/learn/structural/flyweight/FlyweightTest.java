@@ -77,7 +77,7 @@ public class FlyweightTest extends Graphics {
 			Rectangle r = new Rectangle(x, row, W, H);
 			if (r.contains(e.getX(), e.getY())) {
 				selectedName = (String) names.elementAt(i);
-				repaint();
+				//repaint();
 			}
 			x = x + HSpace; // change to next posn
 			j++;
@@ -307,3 +307,4 @@ public class FlyweightTest extends Graphics {
 		// TODO Auto-generated method stub
 		
 	}
+}
